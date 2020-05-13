@@ -23,4 +23,4 @@
 <div align="center">
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/jietu2.png" width="400"  />
 </div>
-相应的exe文件https://www.zhihu.com/question/23378396，提取密码：0212
+相应的exe文件百度网盘链接(https://www.zhihu.com/question/23378396)，提取码：0212
