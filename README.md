@@ -1,7 +1,7 @@
 # Handwritten-Digit-Recognition
 
 ##  train and test
-运行train.py，训练50个epoch之后，测试识别准确率如下图所示，可以看到最高准确率可以到达99.32%
+运行train.py，训练50个epoch之后，测试识别准确率如下图所示，可以看到最高准确率可以到达99.32%，lenet5可以达到99%的准确率，自己的结构加入了BN层，将maxpool用conv2D(stride=2)代替
 <div align="center">
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/%E6%88%AA%E5%9B%BE.png" width="800"  />
 </div>
