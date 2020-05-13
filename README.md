@@ -10,7 +10,13 @@
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/loss.png" width="400"/><img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/accuracy.png" width="400"/>
 </div>
 
+## 网络结构
+相应网络结构可以查看images下的网络结构图片
 ##  GUI界面
 运行GUI.py，可以利用训练好的模型进行手写数字的识别
+<div align="center">
+<img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/exe1.png" width="400"/><img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/exe2.png" width="400"/>
+</div>
+
 ##  打包成exe
-可使用这个命令pyinstaller -F -i images/lcd.ico GUI.py -w进行打包
+可使用这个命令pyinstaller -F -i images/lcd.ico GUI.py -w进行打包，其中lcd.ico是自己做的exe图标图片，可以使用编辑好的png图片进行[转换](https://www.convertico.com/)成.ico形式
