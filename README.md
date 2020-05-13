@@ -1,7 +1,7 @@
 # Handwritten-Digit-Recognition
 
 ##  train and test
-<div algin="center">
+<div align="center">
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/%E6%88%AA%E5%9B%BE.png" width="600"  />
 </div>
 
