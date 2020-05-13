@@ -9,6 +9,7 @@
 <div align="center">
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/loss.png" width="400"/><img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/accuracy.png" width="400"/>
 </div>
+
 ##  GUI界面
 运行GUI.py，可以利用训练好的模型进行手写数字的识别
 ##  打包成exe
