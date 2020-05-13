@@ -2,9 +2,8 @@
 
 ##  train and test
 
-<div align=center>
-<img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/%E6%88%AA%E5%9B%BE.png" width="200">
-</div>
+<img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/%E6%88%AA%E5%9B%BE.png" style="zoom:50%" align=center />
+
 
 ## GUI界面
 ## 打包成exe
