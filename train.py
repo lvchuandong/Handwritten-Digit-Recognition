@@ -16,19 +16,19 @@ class Net(nn.Module):
         self.fc2 = nn.Linear(84, 10)
 
     def forward(self, x):
-        # torch.Size([64, 1, 28, 28])
-        x = self.conv1(x)  # torch.Size([64, 5, 12, 12])
-        x = self.conv2(x)  # torch.Size([64, 20, 10, 10])
-        x = x.view(x.size()[0], -1)  # torch.Size([64, 2000])
-        x = self.fc1(x)  # torch.Size([64, 100])
-        out = self.fc2(x)  # torch.Size([64, 10])
+        # torch.Size([256, 1, 28, 28])
+        x = self.conv1(x)  # torch.Size([256, 16, 10, 10])
+        x = self.conv2(x)  # torch.Size([256, 64, 8, 8])
+        x = x.view(x.size()[0], -1)  # torch.Size([256, 4096])
+        x = self.fc1(x)  # torch.Size([256, 84])
+        out = self.fc2(x)  # torch.Size([256, 10])
         return out
 
 
 # 训练过程
 def train():
     train_loss = 0
-    for i, data in enumerate(train_dadaset_loader):  # 938
+    for i, data in enumerate(train_dadaset_loader):  
         model.train()
         inputs, labels = data
         optimizer.zero_grad()
