@@ -24,4 +24,4 @@
 <img src="https://github.com/lvchuandong/Handwritten-Digit-Recognition/blob/master/images/jietu2.png" width="400"  />
 </div>
 
-相应的exe文件[网盘链接](https://pan.baidu.com/s/1Ay0nQGZj81FacfBy9ZTI8w)，提取码：s0rk
+相应的exe文件，注意选择图片的时候不要有中文路径，[网盘链接](https://pan.baidu.com/s/1Ay0nQGZj81FacfBy9ZTI8w)，提取码：s0rk
